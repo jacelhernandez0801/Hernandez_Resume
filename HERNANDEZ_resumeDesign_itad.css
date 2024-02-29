@@ -1,0 +1,85 @@
+body {
+    font-size: 18px;
+    font-family: Tahoma;
+    text-align: justify;
+    text-shadow: 2px 2px lightgray;
+    background-color: #F5D3DD;
+    margin: 10px;
+    padding: 50px;
+    position: relative;
+}
+
+.resume {
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.resume-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Georgia;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 64, 129, 0.5);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #ED7BAB;
+    padding: 5px;
+}
+
+hr {
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+p {
+   
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.education .item {
+    padding: 10px;
+    text-align: left;
+}
+
+.hobbies,
+.seminars {
+    width: 49%;
+    display: inline-block;
+    margin-right: 17px;
+    vertical-align: top;
+    text-align: left;
+}
